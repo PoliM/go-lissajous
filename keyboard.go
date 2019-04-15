@@ -5,12 +5,19 @@ import "github.com/nsf/termbox-go"
 type keyboardEventType int
 
 const (
+	// Exit stops the program
 	Exit keyboardEventType = 1 + iota
+	// UseDots switches the "graphics" to use dots
 	UseDots
+	// UseStars switches the "graphics" to use stars (asterisks)
 	UseStars
+	// IncA increases the frequency on the x axis
 	IncA
+	// DecA decreases the frequency on the x axis
 	DecA
+	// IncB increases the frequency on the y axis
 	IncB
+	// DecB decreases the frequency on the y axis
 	DecB
 )
 

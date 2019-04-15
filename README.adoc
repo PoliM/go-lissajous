@@ -1,5 +1,7 @@
 = Lissajous renderer
 
+image::https://goreportcard.com/badge/polim/go-lissajous[Go Report Card,link="https://goreportcard.com/report/polim/go-lissajous"]
+
 See: https://en.wikipedia.org/wiki/Lissajous_curve
 
 Draws lissajous figures on the terminal.

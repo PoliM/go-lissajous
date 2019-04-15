@@ -13,6 +13,7 @@ const (
 	bgColor      = termbox.ColorDefault
 	dotColor     = termbox.ColorYellow
 
+	// Pi2 is short for 2 x Pi
 	Pi2 = math.Pi * 2.0
 )
 
